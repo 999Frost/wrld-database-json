@@ -50,4 +50,4 @@ db.getAll();
 
 ## Support
 If you need help, contact me on discord [here](https://discord.com/users/548028946097111045)
-or on github [here]([https://github.com/999Frost](https://github.com/999Frost/wrld-db/issues/new))
+or on github [here]([https://github.com/999Frost](https://github.com/999Frost/wrld-db/issues/new)
