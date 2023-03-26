@@ -186,7 +186,7 @@ export default class Database {
       this.$setAllData(data)
       return this.$getData(id)
     } catch (error) {
-
+      return console.log(error)
     }
   }
 
@@ -196,7 +196,7 @@ export default class Database {
       if (!fetched && defaultData) this.$setData(id, defaultData)
       return fetched
     } catch (error) {
-
+      return console.log(error)
     }
   }
 
@@ -206,7 +206,7 @@ export default class Database {
       return JSON.parse(fs.readFileSync(this.path))
     } catch (error) {
       this.$setAllData({})
-      return {}
+      return console.log(error)
     }
   }
 };
